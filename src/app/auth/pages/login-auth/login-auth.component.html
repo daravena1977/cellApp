@@ -1,0 +1,33 @@
+
+
+  <form class="flex flex-column shadow-4 bg-black-alpha-10 p-4">
+    <span class="text-xl mb-4 mt-3">Login</span>
+    <mat-divider class="mb-3"></mat-divider>
+
+
+  <mat-form-field class="mb-5">
+
+    <mat-label>Usuario</mat-label>
+    <input type="text" matInput placeholder="Ingrese usuario">
+
+  </mat-form-field>
+
+  <mat-form-field class="mb-5">
+
+    <mat-label>Contraseña</mat-label>
+    <input type="password" matInput placeholder="Ingrese contraseña">
+
+  </mat-form-field>
+
+  <button matt-button mat-flat-button color="primary">
+    <mat-icon class="mat-18">login</mat-icon>
+    Ingresar
+  </button>
+
+  <div class="flex justify-content-end mt-5">
+    <a routerLink="/auth/new-account">¿Desea crear una cuenta?</a>
+  </div>
+
+  </form>
+
+

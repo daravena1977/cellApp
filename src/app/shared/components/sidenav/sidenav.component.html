@@ -1,0 +1,25 @@
+<mat-sidenav-container fullscreen>
+    <mat-sidenav position="start" #sidenav mode="side" [ngStyle]="{width: '300px'}">
+        <mat-toolbar class="bg-black-alpha-10" color="">
+            <span>Menú</span>
+            <span class="spacer"></span>
+            <button mat-icon-button (click)="sidenav.toggle()">
+              <mat-icon class="mat-18">close</mat-icon>
+
+            </button>
+        </mat-toolbar>
+    </mat-sidenav>
+
+    <mat-toolbar color="primary">
+
+
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Celulares App</span>
+
+    </mat-toolbar>
+
+
+
+</mat-sidenav-container>
